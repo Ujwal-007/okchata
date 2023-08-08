@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+}
+.title{
+    margin-bottom: 10px;
+}
+.photo_galary{
+    display: flex;
+    gap: 20px; 
+}
+.coloumn{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}.photo img{
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+}
+@media(max-width:760px){
+    .photo_galary{
+        flex-direction: column;
+    }
+}
